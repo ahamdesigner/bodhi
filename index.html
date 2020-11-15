@@ -57,7 +57,7 @@ intellect
 
 <h1>Services</h1>
 <p>UI | UX | Digital Marketing | Analytics | Digital Img
-<input id="time" type="datetime-local" class="date-time" name="date">
+<input id="time" type="date" onload="getDate()" class="date-time" name="date">
 </p>
 <p>Intellectual Communication</p>
 <p>Startup Support</p>
@@ -117,6 +117,12 @@ Changes in their lives
 </a>
 
 </article>
+<script>
+function getDate(){
+    var today = new Date();
+    document.getElementById("date").value = today.getFullYear() + '-' + ('0' + (today.getMonth() + 1)).slice(-2) + '-' + ('0' + today.getDate()).slice(-2);
+}
+</script>
 
 </body>
 
