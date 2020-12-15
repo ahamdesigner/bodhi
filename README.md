@@ -1,2 +1,2 @@
 # bodhi
-official repositary for agency bodhi intellect
+repositary bodhi intellect
