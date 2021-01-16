@@ -1,2 +1,2 @@
 # bodhi
-repositary bodhi intellect
+repository bodhi intellect
